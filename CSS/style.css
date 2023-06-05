@@ -1,0 +1,92 @@
+html {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Ubuntu', sans-serif;
+}
+
+body {
+    background-color:  hsl(206, 94%, 87%) !important;
+    font-size: 16px;
+    padding: 10px;
+}
+
+/* MAIN CONTAINER SECTION */
+section {
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+}
+.main-container {
+   background-color:  hsl(0, 0%, 100%);
+   margin: 50px 0;
+   padding: 10px 0;
+}
+.main-container, .sidebar {
+    border-radius: 8px;
+}
+
+.sidebar {
+    background-image: url('../images/bg-sidebar-desktop.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    height: 65vh;
+    width: 24vw;
+    min-width: 350px;
+}
+
+#info-text-container {
+    padding: 40px 80px;
+}
+
+#name,
+#email,
+#pwd {
+    font-family: inherit;
+    padding: 12px 20px;
+}
+
+#name:focus,
+#email:focus,
+#pwd:focus{
+    outline: none;
+}
+*:focus {
+    outline: none;
+}
+
+.form-btn-container {
+    display: flex;
+    justify-content: end;
+    margin-top: 100px;
+}
+
+#submit-btn {
+    background-color: hsl(213, 96%, 18%) !important;
+    color: hsl(0, 0%, 100%);
+    font-weight: 600;
+    letter-spacing: 2px;
+    padding: 10px 16px;
+}
+
+/* ALL SITE FONTS HERE */
+.main-heading{
+    color: hsl(213, 96%, 18%);
+    font-size: 38px;
+    font-weight: 700;
+}
+p {
+    color: hsl(229, 28%, 78%);
+}
+
+label, p {
+    font-size: 18px;
+}
+
+label {
+    color: hsl(213, 96%, 18%); 
+    font-weight: 600;
+    margin: 12px 0;
+}
